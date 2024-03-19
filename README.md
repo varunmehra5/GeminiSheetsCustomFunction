@@ -1,7 +1,7 @@
 
-# GEMINI Text Classifier
+# GEMINI Custom Function
 
-The GEMINI function is a custom Google Apps Script function designed to classify text data as SPAM or NOT SPAM. It leverages the Gemini model from thse generative language API to analyze and classify the text based on the provided objective.
+The GEMINI function is a custom Google Apps Script function designed to work with the data within the Google Spreadsheet for analysis, summarisation and text generation
 
 ## Featuress
 
@@ -58,7 +58,7 @@ Generates a prompt string used for the API call, based on the objective and the 
 
 Makes a POST request to the generative language API with the generated prompt and handles the API response.
 
-## Contributing
+## Current Issues
 
 The script has issues when dealing with a single column range
 
