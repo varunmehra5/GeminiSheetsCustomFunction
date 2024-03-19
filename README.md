@@ -32,6 +32,18 @@ If you have a column of text in A1:A10 and you want to classify each cell's cont
 =GEMINI("classify text as SPAM or NOT SPAM", A1:A10)
 ```
 
+Analyse a range of data as a business analyst.
+
+```javascript
+=GEMINI("Analyse as a business analyst. Here's the data. Generate a 100 word summary.",A1:O5)
+```
+
+Generate Product Descriptions.
+
+```javascript
+=GEMINI("Generate 50 word product description optimised for sales and SEO, Here's the Product Title:",A2)
+```
+
 ## Function Description
 
 ### `GEMINI(objective, dataRange)`
@@ -45,6 +57,11 @@ Generates a prompt string used for the API call, based on the objective and the 
 ### `fetchAPIResponse(prompt, url, apiKey)`
 
 Makes a POST request to the generative language API with the generated prompt and handles the API response.
+
+## Contributing
+
+The script has issues when dealing with a single column range
+
 
 ## Contributing
 
