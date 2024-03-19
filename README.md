@@ -3,7 +3,7 @@
 
 The GEMINI function is a custom Google Apps Script function designed to work with the data within the Google Spreadsheet for analysis, summarisation and text generation
 
-## Featuress
+## Features
 
 - **Custom Functionality:** Designed to be used as a custom function within Google Sheets, enabling on-the-fly text classification.
 - **Easy to Use:** Simply input your objective and the data range, and the function will classify the text accordingly.
